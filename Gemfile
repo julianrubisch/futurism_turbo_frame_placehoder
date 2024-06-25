@@ -67,3 +67,6 @@ group :test do
 end
 
 gem "faker", "~> 3.4", :group => :development
+
+# gem "futurism", "~> 1.4"
+gem "futurism", path: "../futurism"

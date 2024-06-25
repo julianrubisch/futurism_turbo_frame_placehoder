@@ -4,11 +4,14 @@
 
 <div id="posts">
   <% @posts.each do |post| %>
-    <%= render post %>
-    <p>
-      <%= link_to "Show this post", post %>
-    </p>
+    <div>
+      <%= futurize post, as: :div do %>
+        Placeholder
+      <% end %>
+    </div>
   <% end %>
 </div>
+
+<%= turbo_frame_tag :modal %>
 
 <%= link_to "New post", new_post_path %>

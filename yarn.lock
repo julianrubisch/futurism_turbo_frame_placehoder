@@ -140,6 +140,25 @@
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.1.3.tgz#4db480347775aeecd4dde2405659eef74a458881"
   integrity sha512-ojNvnoZtPN0pYvVFtlO7dyEN9Oml1B6IDM+whGKVak69MMYW99lC2NOWXWeE3bmwEydbP/nn6ERcpfjHVjYQjA==
 
+"@rails/actioncable@^7.1.3-4":
+  version "7.1.3-4"
+  resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.1.3-4.tgz#a2ecc3b6a20ab35eeadecaa590e3ef8193e08272"
+  integrity sha512-54K+dO4wvL1FVnw8XFRkY8VZXTU9HdjB5QCd2dNDAkE9cJRD8bBrQZAi8zm5npL2sKGKwOSGmfZrXFE12LMYGA==
+
+"@stimulus_reflex/futurism@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@stimulus_reflex/futurism/-/futurism-1.4.1.tgz#99f58c72f6cd5a8903549e7c31f5256d7064dfe4"
+  integrity sha512-p+fVDM0BSc7uF+v4tyG6hN0pP1O7RwGPcEC9d5X9Qk7msmgETB81oqiccnsB0D/xqJOgevMAJP+URywdPYqR0A==
+  dependencies:
+    cable_ready "^5.0.0"
+
+cable_ready@^5.0.0:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/cable_ready/-/cable_ready-5.0.5.tgz#45dd12ae5b3c5c53a1b42c10785e79ff87a5be22"
+  integrity sha512-qPC6zaI8h59BzMH3MxtpuMC+H33VJTA2eVddL6fZSWz01jJ2Y3okld01oYWQoKwE2yle/tvHbyuhoKxD4mhEuw==
+  dependencies:
+    morphdom "2.6.1"
+
 esbuild@^0.21.5:
   version "0.21.5"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.21.5.tgz#9ca301b120922959b766360d8ac830da0d02997d"
@@ -168,3 +187,8 @@ esbuild@^0.21.5:
     "@esbuild/win32-arm64" "0.21.5"
     "@esbuild/win32-ia32" "0.21.5"
     "@esbuild/win32-x64" "0.21.5"
+
+morphdom@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/morphdom/-/morphdom-2.6.1.tgz#e868e24f989fa3183004b159aed643e628b4306e"
+  integrity sha512-Y8YRbAEP3eKykroIBWrjcfMw7mmwJfjhqdpSvoqinu8Y702nAwikpXcNFDiIkyvfCLxLM9Wu95RZqo4a9jFBaA==
